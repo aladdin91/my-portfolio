@@ -13,29 +13,27 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I am a highly motivated{" "}
+        <span className="font-medium">Frontend Developer</span> with a
+        background in{" "}
+        <span className="font-medium italic">creative writing</span> that helped
+        me to develop strong communication skills. In addition to my technical
+        skills, I am a quick learner, eager to take on new challenges and always
+        striving to improve my skills which I proved to myself by finishing the
+        intensive <span className="underline"> HackYourFuture </span>bootcamp.
+        and learned{" "}
+        <span className="font-medium">full-stack web development</span>. My core
+        stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Node.js, Mysql and ExpressJS
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with{" "}
+        <span className="font-medium"> TypeScript</span>. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>{" "}
-      <p>
-        <span className="italic">When {`I'm`} not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. {`I'm`}{" "}
-        also learning how to play the guitar.
+        developer. <span className="italic">When {`I'm`} not coding</span>, I
+        work on my new novel, reding books and also enjoy{" "}
+        <span className="font-medium">learning new things</span>.
       </p>{" "}
     </motion.section>
   );
