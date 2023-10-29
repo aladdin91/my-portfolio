@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { projectsData } from "@/lib/data";
+import ProjectBtn from "./project-btn";
 
 type ProjectsProps = (typeof projectsData)[number];
 
@@ -11,6 +12,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  demoLink,
+  sourceLink,
 }: ProjectsProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -44,7 +47,12 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="flex justify-start pt-4 gap-2">
+            <ProjectBtn text="Demo" url={demoLink} />
+            <ProjectBtn text="Source code" url={sourceLink} />
+          </div>
         </div>
+
         <Image
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2x1 group-even:right-[initial] group-even:-left-40 transition 
         group-hover:scale-[1.04]
