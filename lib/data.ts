@@ -3,7 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import myPortfolioImg from "@/public/my-portfolio.png";
+import cinemania from "@/public/cinemania.png";
 export const links = [
   {
     name: "Home",
@@ -60,22 +61,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "My portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: wordanalyticsImg,
-    demoLink: "http://",
-    sourceLink: "https://",
+      "a portfolio website to showcase my projects and skills. built with Typescript and Nextjs",
+    tags: ["React", "Next.js", "Tailwind", "framer motion", "TypeScript"],
+    imageUrl: myPortfolioImg,
+    demoLink: "https://alaa-abdelbaki.vercel.app/",
+    sourceLink: "https://github.com/aladdin91/my-portfolio",
   },
   {
-    title: "rmtDev",
+    title: "cinemania",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: wordanalyticsImg,
-    demoLink: "http://",
-    sourceLink: "https://",
+      "For my final project at HackYourFuture, I worked with my team on both front-end and back-end development",
+    tags: ["React", "Expressjs", "MUI", "Nodejs", "mySql", "KnexJS"],
+    imageUrl: cinemania,
+    demoLink: "https://cinemania.fly.dev/",
+    sourceLink: "https://github.com/HackYourFuture-CPH/CINEMANIA",
   },
   {
     title: "Word Analytics",
@@ -98,14 +99,14 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  // "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  // "Redux",
+  // "GraphQL",
+  // "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  // "PostgreSQL",
+  // "Python",
+  // "Django",
   "Framer Motion",
 ] as const;

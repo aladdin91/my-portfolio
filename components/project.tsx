@@ -54,7 +54,7 @@ export default function Project({
         </div>
 
         <Image
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2x1 group-even:right-[initial] group-even:-left-40 transition 
+          className="absolute hidden sm:block top-14 -right-56 w-[35rem] rounded-t-lg shadow-2x1 group-even:right-[initial] group-even:-left-60 transition  
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
         group-hover:-translate-y-3 group-hover:-rotate-2 

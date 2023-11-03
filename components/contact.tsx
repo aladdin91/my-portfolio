@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -8,6 +8,8 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
+  const [messageCount, setMessageCount] = useState("");
+
   const { ref } = useSectionInView("Contact");
   return (
     <motion.section
@@ -60,7 +62,11 @@ export default function Contact() {
           name="message"
           required
           maxLength={5000}
+          onChange={(e) => setMessageCount(e.target.value)}
         />
+        <div className="flex justify-end pr-4">
+          <p>{messageCount.length} / 5000</p>
+        </div>
         <SubmitBtn />
       </form>
     </motion.section>
