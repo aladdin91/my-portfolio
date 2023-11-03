@@ -61,7 +61,7 @@ export const experiencesData = [
     description:
       "I graduated after A 28-week course designed to cover all aspects of full-stack development including HTML, CSS, JavaScript, NodeJS, ExpressJS, GIT, MySQL and ReactJS.",
     icon: React.createElement(FaReact),
-    date: "2021",
+    date: "2023",
   },
 ] as const;
 
