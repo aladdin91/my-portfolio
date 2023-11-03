@@ -4,7 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import myPortfolioImg from "@/public/my-portfolio.png";
-import cinemania from "@/public/cinemania.png";
+import cinemaniaImg from "@/public/cinemania.png";
+import weatherAppImg from "@/public/weather-app.png";
 export const links = [
   {
     name: "Home",
@@ -70,22 +71,22 @@ export const projectsData = [
     sourceLink: "https://github.com/aladdin91/my-portfolio",
   },
   {
-    title: "cinemania",
+    title: "Cinemania",
     description:
       "For my final project at HackYourFuture, I worked with my team on both front-end and back-end development",
     tags: ["React", "Expressjs", "MUI", "Nodejs", "mySql", "KnexJS"],
-    imageUrl: cinemania,
+    imageUrl: cinemaniaImg,
     demoLink: "https://cinemania.fly.dev/",
     sourceLink: "https://github.com/HackYourFuture-CPH/CINEMANIA",
   },
   {
-    title: "Word Analytics",
+    title: "Weather app",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    demoLink: "http://",
-    sourceLink: "https://",
+      "A weather app that show the temperature according to the user location",
+    tags: ["Html", "Css", "Javascript", "Leaflet", "openstreetmap"],
+    imageUrl: weatherAppImg,
+    demoLink: "https://hyf-weather-app.netlify.app/",
+    sourceLink: "https://github.com/aladdin91/Weather-app",
   },
 ] as const;
 
@@ -99,14 +100,10 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  // "Prisma",
+  "Material UI",
   "MongoDB",
-  // "Redux",
-  // "GraphQL",
-  // "Apollo",
+  "mySql",
+  "KnexJS",
   "Express",
-  // "PostgreSQL",
-  // "Python",
-  // "Django",
   "Framer Motion",
 ] as const;
