@@ -1,8 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { BsBook } from "react-icons/bs";
+import { PiCertificateBold } from "react-icons/pi";
 import myPortfolioImg from "@/public/my-portfolio.png";
 import cinemaniaImg from "@/public/cinemania.png";
 import weatherAppImg from "@/public/weather-app.png";
@@ -35,28 +34,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    title: "my Literature career",
+    location: "Egypt",
+    description: "Published my first novel .",
+    icon: React.createElement(BsBook),
+    date: "2014",
+  },
+  {
+    title: "my Literature career",
+    location: "Egypt",
+    description: "Published my short story collection.",
+    icon: React.createElement(BsBook),
+    date: "2017",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Denmark",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "certificate of completion web development track HTML, CSS. | sponsorship by ministry of Communications and Information Technology, Egypt",
+    icon: React.createElement(PiCertificateBold),
+    date: "2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduated Bootcamp",
+    location: "Denmark",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I graduated after A 28-week course designed to cover all aspects of full-stack development including HTML, CSS, JavaScript, NodeJS, ExpressJS, GIT, MySQL and ReactJS.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021",
   },
 ] as const;
 
