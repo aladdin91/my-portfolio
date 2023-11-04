@@ -65,8 +65,8 @@ export default function Contact() {
           onChange={(e) => setMessageCount(e.target.value)}
         />
         <div className="flex justify-end pr-4">
-          <p className="text-black/50 dark:text-white/50">
-            {messageCount.length} / 5000
+          <p className=" text-black/50 dark:text-white/50">
+            Your message count: {messageCount.length} / 5000
           </p>
         </div>
         <SubmitBtn />
