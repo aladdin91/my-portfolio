@@ -5,6 +5,8 @@ import { PiCertificateBold } from "react-icons/pi";
 import myPortfolioImg from "@/public/my-portfolio.png";
 import cinemaniaImg from "@/public/cinemania.png";
 import weatherAppImg from "@/public/weather-app.png";
+import { CgWorkAlt } from "react-icons/cg";
+
 export const links = [
   {
     name: "Home",
@@ -62,6 +64,14 @@ export const experiencesData = [
       "I graduated after A 28-week course designed to cover all aspects of full-stack development including HTML, CSS, JavaScript, NodeJS, ExpressJS, GIT, MySQL and ReactJS.",
     icon: React.createElement(FaReact),
     date: "2023",
+  },
+  {
+    title: "Front-End Developer ",
+    location: "Denmark",
+    description:
+      "I worked as a front-end developer intern for costbits.com. My stack includes React, TypeScript, Tailwind, Nivo charts",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
 ] as const;
 
